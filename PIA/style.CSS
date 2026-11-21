@@ -1,0 +1,52 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width:80px;
+    background-color: #000000;
+}
+li a{
+    display: block;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+}
+li{
+    float: left;
+}
+li a:hover{
+    background-color: #000000;
+    color: #f1f1f1;
+    border: 3px solid rgb(97, 48, 119);
+}
+.footer{
+    position: fixed;
+    left: 0%;
+    bottom:0%;
+    width: 100%;
+    background-color: rgb(0,0,0);
+    color: white;
+    text-align: center;
+}
+body{
+    font-family: "Comic Sans MS";
+}
+button:hover {
+  cursor: pointer;
+}
+body {
+  cursor: url('Aguijón Onírico.png'), auto;
+} 
+.mi-boton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    /* Al poner el ratón encima, el cursor cambia a una mano */
+    cursor: pointer; 
+}
+
+.mi-boton:hover {
+    background-color: #0056b3;
+}
